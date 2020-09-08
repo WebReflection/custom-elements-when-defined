@@ -1,0 +1,1 @@
+!function(){"use strict";var e=Object.defineProperty,n=self.customElements,t=n.get,c=n.whenDefined;e(self.customElements,"whenDefined",{configurable:!0,value:function(e){var n=this;return c.call(this,e).then((function(c){return c||t.call(n,e)}))}})}();
