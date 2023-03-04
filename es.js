@@ -1,1 +1,1 @@
-!function(){"use strict";const{defineProperty:e}=Object,{get:t,whenDefined:n}=self.customElements;e(self.customElements,"whenDefined",{configurable:!0,value(e){return n.call(this,e).then(n=>n||t.call(this,e))}})}();
+!function(){"use strict";const{get:e,whenDefined:t}=self.customElements;self.customElements.whenDefined=function(n){return t.call(this,n).then((t=>t||e.call(this,n)))}}();
